@@ -7,6 +7,7 @@ try:
     user_collection = db["user"]
     medical_collection = db["medical"]
     achievement_collection = db["achievement"]
+    chat_collection = db["chat"]
     print("Connected to the database successfully")
 except pymongo.errors.ConnectionFailure as e:
     print("Failed to connect to the database:", e)
@@ -43,4 +44,15 @@ def get_achievement_by_user_id(user_id):
             raise ValueError("Achievements not found")
     except Exception as e:
         print(f"Error fetching achievements: {e}")
+
+def get_chat_by_user_id(user_email):
+    try:
+        chat = chat_collection.find({"user_email": user_email})
+        chat_list = list(chat)
+        if chat_list:
+            return chat_list
+        else:
+            raise ValueError("Chat records not found")
+    except Exception as e:
+        print(f"Error fetching chat records: {e}")
     # Handle the error appropriately here.
