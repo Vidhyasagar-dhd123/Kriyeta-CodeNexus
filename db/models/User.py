@@ -4,7 +4,7 @@ class User:
     def __init__(self, username: str, password: str, email: str):
         self.username = username
         self.email = email
-        self.password = self.hash_password(password)
+        self.password =password
 
     def hash_password(self, password: str):
         """Hashes the password before storing it."""
