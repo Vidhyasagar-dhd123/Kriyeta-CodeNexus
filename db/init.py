@@ -11,11 +11,8 @@ name = user.username
 medical = Medical(id, name, "common cold and fever")
 medical_result = medical_collection.insert_one(medical.to_dict())
 #fetch data
-# for medical in medical_collection.find():
-#     user_data = user_collection.find_one({"_id": medical["user_id"]})
-#     print("Medical:", medical)
-#     print("User:", user_data)
+for medical in medical_collection.find():
+    user_data = user_collection.find_one({"_id": medical["user_id"]})
+    print("Medical:", medical)
+    print("User:", user_data)
 
-#delete data
-medical_collection.delete_many({})
-user_collection.delete_many({})
