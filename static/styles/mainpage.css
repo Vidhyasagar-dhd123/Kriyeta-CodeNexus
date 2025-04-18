@@ -1,14 +1,114 @@
-body{
-    margin: 0px;
+body {
+    margin: 0;
     font-family: Arial, sans-serif;
     color: #333;
     background-color: #fff;
-}
-.navbar{
-    display:flex;
+  }
+  
+  .navbar {
+    display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
-    border-bottom:1px solid #eee;
+    padding: 20px 40px;
+    border-bottom: 1px solid #eee;
     background-color: #fff;
-}
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .heart {
+    font-size: 24px;
+    margin-right: 10px;
+  }
+  
+  .logo h1 {
+    font-size: 18px;
+    margin: 0;
+  }
+  
+  .logo p {
+    font-size: 12px;
+    margin: 0;
+    color: gray;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+  }
+  
+  .sign-in {
+    background-color: #007bff;
+    color: white;
+    padding: 8px 14px;
+    border-radius: 5px;
+  }
+  
+  .hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 40px;
+  }
+  
+  .hero-text {
+    max-width: 50%;
+  }
+  
+  .hero-text h2 {
+    font-size: 32px;
+    line-height: 1.3;
+  }
+  
+  .highlight {
+    color: #007bff;
+  }
+  
+  .hero-text p {
+    font-size: 16px;
+    margin: 20px 0;
+    color: #555;
+  }
+  
+  .buttons {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .btn {
+    padding: 10px 20px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .primary {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .secondary {
+    background-color: transparent;
+    border: 1px solid #007bff;
+    color: #007bff;
+  }
+  
+  .hero-image img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 15px;
+  }
+  
