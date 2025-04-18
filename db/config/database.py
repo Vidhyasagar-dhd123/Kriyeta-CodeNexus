@@ -6,6 +6,8 @@ try:
     db = client["Kriyeta"]
     user_collection = db["user"]
     medical_collection = db["medical"]
+    achievement_collection = db["achievement"]
+    print("Connected to the database successfully")
 except pymongo.errors.ConnectionFailure as e:
     print("Failed to connect to the database:", e)
 
@@ -23,10 +25,22 @@ def get_user_by_id(user_id):
 def get_medical_by_user_id(user_id):
     try:
         medical = medical_collection.find({"user_id": user_id})
-        if medical:
-            return medical
+        medical_list = list(medical)
+        if medical_list:
+            return medical_list
         else:
             raise ValueError("Medical records not found")
     except Exception as e:
         print(f"Error fetching medical records: {e}")
+
+def get_achievement_by_user_id(user_id):
+    try:
+        achievement = achievement_collection.find({"user_id": user_id})
+        achievement_list = list(achievement)
+        if achievement_list:
+            return achievement_list
+        else:
+            raise ValueError("Achievements not found")
+    except Exception as e:
+        print(f"Error fetching achievements: {e}")
     # Handle the error appropriately here.

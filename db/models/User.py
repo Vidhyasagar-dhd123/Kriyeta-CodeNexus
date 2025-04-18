@@ -14,5 +14,7 @@ class User:
         return {
             "username": self.username,
             "email": self.email,
-            "password": self.password
+            "password": self.password,
         }
+    
+    

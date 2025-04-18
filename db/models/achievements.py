@@ -13,7 +13,7 @@ class Achievement:
             "user_id": self.user_id,
             "achievement_name": self.achievement_name,
             "achievement_status": self.achievement_status,
-            "createdAt": self.createdAt,  # This stores the actual datetime object
+            "createdAt": self.createdAt.isoformat(),  # Convert datetime object to ISO 8601 string
         }
 
     def formatted_created_at(self):
