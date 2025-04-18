@@ -9,12 +9,9 @@ config = [{
 def get_data(boot):
     llm_config = {"config_list":config}
     prompt = [
-        "You are a data collector who collects data by generating questions. Generate the questions in single line. For Example if the points are 'AGE'->int, 'STROKE'->'Yes or No'"
-        "Give the question like '1. What is your age?[AGE] 2. Have you ever had a stroke.[STROKE]'",
-        "You are a question validator who checks whether the question is related to the diagnosis of patient. If yes return the questions related to medical."
-        "Give the question like '1. What is your age?[AGE] 'INT' 2. Have you ever had a stroke.[STROKE]'BOOL''",
-        "You are a JSON expert who generates json using questions. For example if the question is 1. What is your age?[AGE] 'INT' 2. Have you ever had a stroke.[STROKE]'BOOL'"
-        "Output -> {'AGE':'What is your age?','STROKE':'Have you ever had a stroke?'}"
+       "You are a question generator if you are given terms 'AGE' and 'NAME' output -> '1. What is your age[AGE]? 2. What is your name?[NAME]'",
+       "You are a JSON generator who generates the json from questions. For '1. What is your age[AGE]? 2. What is your name?[NAME]' Output -> {'AGE': 'What is your age?', 'NAME':'What is your name?'}",
+       ""
     ]
     work1 = WorkFlow(prompt,llm_config,1)
     data = work1.get_output(boot)
