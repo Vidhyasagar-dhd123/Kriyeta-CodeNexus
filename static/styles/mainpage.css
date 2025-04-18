@@ -50,11 +50,12 @@ body {
   }
   
   .sign-in {
-    background-color: #007bff;
+    background-color: #006666;
     color: white;
     padding: 8px 14px;
     border-radius: 5px;
-  }
+     text-decoration: none;
+}
   .hero {
     display: flex;
     justify-content: space-between;
@@ -72,7 +73,7 @@ body {
   }
   
   .highlight {
-    color: #007bff;
+    color: #006666;
   }
   
   .hero-text p {
@@ -109,6 +110,16 @@ body {
     text-align: center;
     gap: 30px;
 }
+.features-container,
+.services-cards {
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.card,
+.feature-card {
+  flex: 1 1 300px;
+  max-width: 320px;
+}
 
 .feature-card {
     background-color: #fff;
@@ -119,6 +130,7 @@ body {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
     transition: transform 0.3s ease;
     text-align: center;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
 }
 .feature-card:hover {
     transform: translateY(-5px);
@@ -259,3 +271,60 @@ body {
     background-color: #0b5ed7;
   }
     
+  .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease-in-out;
+  }
+  .btn-custom:hover {
+    background-color: #ff6f61;
+    color: white;
+    box-shadow: 0 5px 15px rgba(255, 111, 97, 0.4);
+    transform: translateY(-3px);
+    transition: all 0.3s ease;
+  }
+  .navbar {
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 1000;
+    transition: top 0.3s;
+  }
+  .img-hover-zoom {
+    overflow: hidden;
+  }
+  
+  .img-hover-zoom img {
+    transition: transform 0.5s ease;
+  }
+  
+  .img-hover-zoom:hover img {
+    transform: scale(1.1);
+  }
+  .arrow {
+    position: fixed;
+    bottom: 100px;
+    right: 80px;
+    width: 50px;
+    height: 50px;
+    background-image: url('https://cdn-icons-png.flaticon.com/512/60/60525.png'); /* Or use a simple Unicode arrow */
+    background-size: contain;
+    background-repeat: no-repeat;
+    animation: bounce 2s infinite;
+    z-index: 1000;
+    transform: rotate(-45deg);
+  }
+  
+  .hidden {
+    display: none;
+  }   
+
+
+.About-section, .services-section, .how-it-works {
+    background: linear-gradient(to right, #f8f9fa, #e9ecef);
+}
+.card:hover {
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+}
