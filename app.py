@@ -3,7 +3,6 @@ from flask import copy_current_request_context
 from flask_socketio import SocketIO, send , emit, disconnect
 from flask_login import LoginManager, UserMixin, login_required, login_user, logout_user, current_user
 from db.config.database import user_collection
-from db.config.database import chat_collection
 from bson.objectid import ObjectId
 from db.models.User import User
 from agents.agents import get_data
@@ -37,14 +36,13 @@ def handle_message(data):
     else:
         disconnect()
 
-@login_required
 @app.route("/",methods=['POST','GET'])
 def home_route():
-    if request.method =='POST':
-        data = request.form["prompt"]
-        result = get_data(data)
-        return render_template("dummy.html",data=result)
-    return render_template("dummy.html",data="")
+    if current_user.is_authenticated:
+        data = {"button":"<a href=\"/logout\" class=\"sign-in\">Log Out</a>"}
+    else:
+        data = {"button":"<a href=\"/Sign In\" class=\"sign-in\">Sign In</a>"}
+    return render_template("mainpage.html",data=data)
 
 @app.route("/signup", methods=['GET','POST'])
 def signup():
@@ -74,7 +72,7 @@ def login():
         user = user_collection.find_one({"email":email})
         if user and user["password"] == password:
             login_user(CurUser(user))
-            return render_template("dummy.html")
+            return redirect(url_for("home_route"))
         return "invalid request"
     return render_template("index.html",data="")
 
