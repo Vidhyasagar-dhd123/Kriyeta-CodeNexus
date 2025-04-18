@@ -55,7 +55,6 @@ body {
     padding: 8px 14px;
     border-radius: 5px;
   }
-  
   .hero {
     display: flex;
     justify-content: space-between;
@@ -68,7 +67,7 @@ body {
   }
   
   .hero-text h2 {
-    font-size: 32px;
+    font-size: 35px;
     line-height: 1.3;
   }
   
@@ -77,38 +76,29 @@ body {
   }
   
   .hero-text p {
-    font-size: 16px;
+    font-size: 20px;
     margin: 20px 0;
     color: #555;
   }
   
-  .buttons {
-    display: flex;
-    gap: 15px;
-  }
-  
-  .btn {
-    padding: 10px 20px;
-    border: none;
-    font-size: 16px;
-    cursor: pointer;
-    border-radius: 5px;
-  }
-  
-  .primary {
-    background-color: #007bff;
-    color: white;
-  }
-  
-  .secondary {
-    background-color: transparent;
-    border: 1px solid #007bff;
-    color: #007bff;
-  }
-  
   .hero-image img {
     width: 100%;
-    max-width: 400px;
+    max-width: 500px;
     border-radius: 15px;
   }
-  
+  .About-section {
+    padding: 60px 40px;
+    text-align: center;
+    background-color: #ffffff;
+}
+.About-section h2{
+    font-size: 39px;
+    margin-bottom: 10px;
+    color: #111;
+   font-weight: bold;
+}
+.subtitle {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 40px;
+}
