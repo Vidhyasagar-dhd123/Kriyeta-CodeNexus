@@ -9,15 +9,10 @@ body {
     height: 100vh;
     justify-content: center;
     align-items: center;
+    text-align: center;
   }
   
-  .left-panel {
-    flex: 1;
-    background-color: #b2d8d8;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+
   
   .illustration {
     width: 60%;
@@ -29,7 +24,10 @@ body {
     background-color: #ffffff;
     padding: 3rem;
     border-radius: 12px;
+    align-items: center;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    width: 100px; /* fixed width instead of flex */
+  max-width: 35%;
   }
   
   .brand {
@@ -46,10 +44,12 @@ body {
   h2 {
     margin-bottom: 2rem;
     color: #003333;
+    
   }
   
   .login-form input {
-    width:70%;
+    width:40%;
+  
     padding: 0.75rem;
     margin: 0.5rem 0;
     border-radius: 6px;
@@ -58,7 +58,7 @@ body {
   }
   
   .login-form button {
-    width: 100%;
+    width: 20%;
     padding: 0.75rem;
     background-color: #006666;
     color: #ffffff;
@@ -67,6 +67,7 @@ body {
     font-size: 1rem;
     cursor: pointer;
     margin-top: 1rem;
+    align-items: center;
   }
   
   .separator {
@@ -83,7 +84,7 @@ body {
     border: 1px solid #ccc;
     border-radius: 6px;
     padding: 0.75rem;
-    width: 100%;
+    width: 40%;
     cursor: pointer;
   }
   
