@@ -1,4 +1,4 @@
-from autogen import ConversableAgent, GroupChat, GroupChatManager
+from autogen import ConversableAgent, GroupChat, GroupChatManager, UserProxyAgent
 
 class WorkFlow():
     def __init__(self,prompt,llm_config,max_turns):
@@ -74,12 +74,6 @@ class GroupedWorkFlow():
         self.history = []
 
     def get_output(self,boot):
-        planner = ConversableAgent(
-            "Planner",
-            system_message=self.planner_prompt,
-            llm_config=self.llm_config,
-            human_input_mode="NEVER",
-        )
         executor = ConversableAgent(
             "Executor",
             system_message=self.executor_prompt,
@@ -87,14 +81,15 @@ class GroupedWorkFlow():
             human_input_mode="NEVER",
         )
 
-        groupchat = GroupChat([planner,executor],messages=self.history, max_round=1)
+        groupchat = GroupChat([executor],messages=self.history, max_round=1)
         manager = GroupChatManager(groupchat,"chat_manager",system_message="You are a chat manager.", human_input_mode="NEVER")
         result = manager.initiate_chat(executor,message=boot, max_turns= self.max_turns)
         self.history.extend(result.chat_history)
         return result.chat_history[-1]["content"]
     
     def set_history(self,data):
-        self.history.extend(data)
+        self.history.append(data)
+        print(self.history)
 
     def get_history(self):
         return self.history

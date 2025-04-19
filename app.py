@@ -6,7 +6,7 @@ from flask_login import LoginManager, UserMixin, login_required, login_user, log
 from db.config.database import user_collection, chat_collection
 from bson.objectid import ObjectId
 from ml.rag import rag,context_retrieval
-import json
+import bson
 import re
 from db.models.User import User
 from agents.agents import get_data, generate_json
@@ -37,14 +37,17 @@ def user_loader(user_id):
 
 @socketio.on("my event")
 def handle_message(data):
+    reply = ""
     if current_user.is_authenticated:
         if data and data["data"]:
             history = []
             hist = chat_collection.find({"user_mail":current_user.email}).sort("_id", DESCENDING).limit(1)
-           
+            for h in hist:
+                h = bson.decode(h["summary"])
+                history.extend(h["chat"])
             query = data["data"]
             reply, history = check_data(query,history)  
-            chat_collection.insert_one({"user_mail":current_user.email,"query":query,"response":reply,"summary":str(history[-2:])})
+            chat_collection.insert_one({"user_mail":current_user.email,"query":query,"response":reply,"summary":bson.encode({"chat":history[-2:]})})
         else:
             reply = "Please Provide some input!"
    
@@ -70,18 +73,21 @@ def signup():
         if (username=='' or password=='' or email==''):
             return redirect(url_for("signup"))
         user = user_collection.find({"email":email})
-        if user:
-            return redirect(url_for("login"))
         user = User(username,password,email)
         user_collection.insert_one(user.to_dict())
+        user = user_collection.find_one({"email":email})
+        login_user(CurUser(user))
+        session["user"] = user["username"]
         print("Inserted ")
-        return "OK"
+        return redirect(url_for("login"))
     return render_template("signup.html",data="")
 
 
 
 @app.route("/login", methods=['GET','POST'])
 def login():
+    if current_user.is_authenticated:
+        return redirect(url_for("home_route"))
     if request.method =='POST':
         email = request.form["email"]
         password = request.form["password"]
@@ -106,7 +112,7 @@ def chat():
 def logout():
     print(current_user)
     logout_user()
-    return "logout successful"
+    return redirect(url_for("login"))
 
 if __name__ == "__main__":
     socketio.run(app,debug=True)
