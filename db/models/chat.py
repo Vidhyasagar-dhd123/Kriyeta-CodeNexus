@@ -1,5 +1,7 @@
+from bson import encode
+
 class Chat:
-    def __init__(self, user_mail:str,query:str, response:str,summary:str):
+    def __init__(self, user_mail:str,query:str, response:str,summary:dict):
         self.usermail = user_mail
         self.query = query,
         self.response = response
@@ -10,5 +12,5 @@ class Chat:
             "user_mail": self.usermail,
             "query": self.query,
             "response": self.response,
-            "summary": self.summary
+            "summary": encode(self.summary) if self.summary else None
         }
