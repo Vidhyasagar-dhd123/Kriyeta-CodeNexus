@@ -11,13 +11,13 @@
     <div class="right-panel">
       <h1 class="brand"><span class="plus">+</span> MediGenie</h1>
       <h2>Sign up to continue </h2>
-      <form class="login-form">
+      <form class="login-form" method="post" action="/signup">
 
-        <input type="Username" placeholder="Username" required />
+        <input type="Username" placeholder="Username" required name="username"/>
         <br/>
-        <input type="email" placeholder="Email" required />
+        <input type="email" placeholder="Email" required name="email" />
         <br/>
-        <input type="password" placeholder="Password" required />
+        <input type="password" placeholder="Password" required  name="password"/>
        
        
 
@@ -28,7 +28,7 @@
       <div class="separator">OR</div>
      
       <p class="signup-text">
-        Already have an account? <a href="index.html">Log In</a>
+        Already have an account? <a href="/login">Log In</a>
       </p>
     </div>
   </div>
