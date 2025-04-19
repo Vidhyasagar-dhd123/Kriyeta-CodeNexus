@@ -1,12 +1,15 @@
 from flask import Flask , render_template, request, redirect, url_for
 from flask import copy_current_request_context, session
 from flask_socketio import SocketIO, send , emit, disconnect
+from pymongo import DESCENDING
 from flask_login import LoginManager, UserMixin, login_required, login_user, logout_user, current_user
 from db.config.database import user_collection, chat_collection
 from bson.objectid import ObjectId
 from ml.rag import rag,context_retrieval
+import json
+import re
 from db.models.User import User
-from agents.agents import get_data
+from agents.agents import get_data, generate_json
 from agents.talker import check_data
 app = Flask(__name__)
 app.secret_key = 'secret!'
@@ -36,8 +39,11 @@ def user_loader(user_id):
 def handle_message(data):
     if current_user.is_authenticated:
         if data and data["data"]:
+            history = []
+            hist = chat_collection.find({"user_mail":current_user.email}).sort("_id", DESCENDING).limit(1)
+           
             query = data["data"]
-            reply, history = check_data(query)  
+            reply, history = check_data(query,history)  
             chat_collection.insert_one({"user_mail":current_user.email,"query":query,"response":reply,"summary":str(history[-2:])})
         else:
             reply = "Please Provide some input!"

@@ -7,7 +7,7 @@ config = [{
     "api_key":"NULL"
 }]
 
-def check_data(boot):
+def check_data(boot,history=None):
     llm_config = {"config_list":config}
     prompt = [
        "You are a message checker if message related to medical or greeting then output -> Yes otherwise No along with the question"\
@@ -17,6 +17,8 @@ def check_data(boot):
        "Example : If user asks 'tell me about cricket' then reply = I can not assist you with that.",
     ]
     work1 = GroupedWorkFlow(prompt,llm_config,1)
+    if history:
+        work1.set_history(history)
     data = work1.get_output(boot)
     print(data)
     return data, work1.history

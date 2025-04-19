@@ -20,7 +20,7 @@
 <script>
     var socket = io();
     socket.on('connect', function() {
-        socket.emit('my event', {data: 'I am having cough now a days.'});
+        socket.emit('my event', {data: 'What I was talking about'});
     });
     socket.on('message', function(reply) {
         console.log(reply)

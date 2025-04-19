@@ -1,5 +1,5 @@
 from autogen import UserProxyAgent, ConversableAgent
-from .workflow import WorkFlow
+from .workflow import WorkFlow, BinaryWorkFlow
 config = [{
     "model":"mistral",
     "base_url":"http://localhost:11434/v1",
@@ -17,3 +17,16 @@ def get_data(boot):
     data = work1.get_output(boot)
     print(data)
     return data
+
+def generate_json(boot):
+    llm_config = {"config_list":config}
+    prompt = [
+       "You are an instructor who instruct to convert invalid json to valid json string",
+       "You are a JSON generator who generates the json.",
+    ]
+    work1 = BinaryWorkFlow(prompt,llm_config,1)
+    data = work1.get_output(boot)
+    print(data)
+    return data
+
+
