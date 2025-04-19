@@ -1,23 +1,29 @@
-from autogen import UserProxyAgent, ConversableAgent
+from autogen import UserProxyAgent, ConversableAgent, AssistantAgent
 from .workflow import BinaryWorkFlow, GroupedWorkFlow
-
+import os
 config = [{
-    "model":"mistral",
-    "base_url":"http://localhost:11434/v1",
-    "api_key":"NULL"
+    "model":os.getenv("MODEL"),
+    "base_url":os.getenv("BASE_URL"),
+    "api_key":os.getenv("API_KEY")
 }]
 
 def check_data(boot,history):
     llm_config = {"config_list":config}
     prompt = [
-       "You are a message checker if message related to medical or greeting then output -> Yes otherwise No along with the question"\
-       "If user asks 'tell me about politics -> then reply = No [tell me about politics]'"\
-       "If user asks Is stress a symptom to hypertension -> then reply = Yes[Is stress a symptom to hypertension] also add the additional information provided.",
-       "If response contains yes then the user is asking valid question so answer using the data the user if response is no then make user ask another question and do not answer. tell user you are a medical assistant."
-       "Example : If user asks 'tell me about cricket' then reply = I can not assist you with that.",
+       "You are a medical assistant who only assess user.",
     ]
     work1 = GroupedWorkFlow(prompt,llm_config,1)
     work1.set_history(history)
     data = work1.get_output(boot)
-    print(data)
     return data, work1.history
+
+
+def get_tool(query):
+    assistant = AssistantAgent(
+                "assistant",
+                system_message="You are a vocabulary and json expert, choose the term from ['HYPERTENSION','DIABETES','ANOTHER'] which relates the best to the user query in form of json in less than 4 words.",
+                llm_config={"config_list":config},
+                human_input_mode="NEVER",
+            )
+    tool_data = assistant.generate_reply(messages=[{"role":"user","content":query}])
+    return tool_data

@@ -1,9 +1,10 @@
 from autogen import UserProxyAgent, ConversableAgent
 from .workflow import WorkFlow
+import os
 config = [{
-    "model":"mistral",
-    "base_url":"http://localhost:11434/v1",
-    "api_key":"NULL"
+    "model":os.getenv("MODEL"),
+    "base_url":os.getenv("BASE_URL"),
+    "api_key":os.getenv("API_KEY")
 }]
 
 def check_data(boot):

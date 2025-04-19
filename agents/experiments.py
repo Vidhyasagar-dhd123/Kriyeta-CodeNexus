@@ -1,10 +1,11 @@
 from workflow import GroupedWorkFlow
-
+import os
 config = [{
-    "model":"mistral",
-    "base_url":"http://localhost:11434/v1",
-    "api_key":"NULL"
+    "model":os.getenv("MODEL"),
+    "base_url":os.getenv("BASE_URL"),
+    "api_key":os.getenv("API_KEY")
 }]
+
 prompt = [
        "You are a message checker if message related to medical or greeting then output -> Yes otherwise No along with the question"\
        "If user asks 'tell me about politics -> then reply = No [tell me about politics]'"\
