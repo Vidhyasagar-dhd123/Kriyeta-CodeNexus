@@ -10,3 +10,4 @@ class Medical:
             "medical_name": self.medical_name,
             "medical_description": self.medical_description
         }
+    

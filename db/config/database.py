@@ -12,7 +12,6 @@ try:
 except pymongo.errors.ConnectionFailure as e:
     print("Failed to connect to the database:", e)
 
-
 def get_user_by_id(user_id):
     try:
         user = user_collection.find_one({"_id": user_id})

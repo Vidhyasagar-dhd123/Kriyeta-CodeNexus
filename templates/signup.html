@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>MediGenie Login</title>
+  <link rel="stylesheet" href="../static/styles/style1.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="right-panel">
+      <h1 class="brand"><span class="plus">+</span> MediGenie</h1>
+      <h2>Sign up to continue </h2>
+      <form class="login-form" method="post" action="/signup">
+
+        <input type="Username" placeholder="Username" required name="username"/>
+        <br/>
+        <input type="email" placeholder="Email" required name="email" />
+        <br/>
+        <input type="password" placeholder="Password" required  name="password"/>
+       
+       
+
+        <div >
+            <button type="submit">Sign Up</button>
+        </div>
+      </form>
+      <div class="separator">OR</div>
+     
+      <p class="signup-text">
+        Already have an account? <a href="/login">Log In</a>
+      </p>
+    </div>
+  </div>
+</body>
+</html>
