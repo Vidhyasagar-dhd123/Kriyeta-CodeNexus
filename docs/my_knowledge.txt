@@ -1,0 +1,305 @@
+This article is about the common insulin disorder. For the urine hyper-production disorder, see Diabetes insipidus. For other uses, see Diabetes (disambiguation).
+Diabetes
+A hollow circle with a thick blue border and a clear centre
+Universal blue circle symbol for diabetes[1]
+Pronunciation	
+/ˌdaɪəˈbiːtiːz, -tɪs/
+Specialty	Endocrinology
+Symptoms	
+Frequent urination
+Increased thirst
+Increased hunger
+Complications	
+Metabolic imbalances
+Cardiovascular diseases
+Myocardial infarction
+Nerve and brain damage
+Kidney failure
+Gastrointestinal changes[2][3][4][5]
+Duration	Remission may occur, but diabetes is often life-long
+Types	
+Type 1 diabetes
+Type 2 diabetes
+Gestational diabetes
+Causes	Insulin insufficiency or gradual resistance
+Risk factors	
+Type 1: genetics and environmental factors[6]
+Type 2: Obesity, family history, non-alcoholic fatty liver disease, past pregnancy with gestational diabetes, lack of exercise, genetics[2][6]
+Diagnostic method	
+High blood sugar
+Increased HbA1c[2]
+Differential diagnosis	diabetes insipidus
+Treatment	
+Lifestyle changes
+Diabetes medication[2]
+Medication	
+Insulin
+Anti-hyperglycemics[2][7][8]
+Frequency	463 million (5.7%)[9]
+Deaths	4.2 million (2019)[9]
+Diabetes, also known as diabetes mellitus, is a group of common endocrine diseases characterized by sustained high blood sugar levels.[10][11] Diabetes is due to either the pancreas not producing enough of the hormone insulin, or the cells of the body becoming unresponsive to insulin's effects.[12] Classic symptoms include polydipsia (excessive thirst), polyuria (excessive urination), polyphagia (excessive hunger), weight loss, and blurred vision. If left untreated, the disease can lead to various health complications, including disorders of the cardiovascular system, eye, kidney, and nerves.[3] Diabetes accounts for approximately 4.2 million deaths every year,[9] with an estimated 1.5 million caused by either untreated or poorly treated diabetes.[10]
+
+The major types of diabetes are type 1 and type 2.[13] The most common treatment for type 1 is insulin replacement therapy (insulin injections), while anti-diabetic medications (such as metformin and semaglutide) and lifestyle modifications can be used to manage type 2. Gestational diabetes, a form that arises during pregnancy in some women, normally resolves shortly after delivery. Type 1 diabetes is an autoimmune condition where the body's immune system attacks the beta cells in the pancreas, preventing the production of insulin. This condition is typically present from birth or develops early in life. Type 2 diabetes occurs when the body becomes resistant to insulin, meaning the cells do not respond effectively to it, and thus, glucose remains in the bloodstream instead of being absorbed by the cells.[14] Additionally, diabetes can also result from other specific causes, such as genetic conditions (monogenic diabetes syndromes like neonatal diabetes and maturity-onset diabetes of the young), diseases affecting the pancreas (such as pancreatitis), or the use of certain medications and chemicals (such as glucocorticoids, other specific drugs and after organ transplantation).[15]
+
+The number of people diagnosed as living with diabetes has increased sharply in recent decades, from 200 million in 1990 to 830 million by 2022.[16][17] It affects one in seven of the adult population, with type 2 diabetes accounting for more than 95% of cases. These numbers have already risen beyond earlier projections of 783 million adults by 2045.[18] The prevalence of the disease continues to increase, most dramatically in low- and middle-income nations.[19] Rates are similar in women and men, with diabetes being the seventh leading cause of death globally.[20][21] The global expenditure on diabetes-related healthcare is an estimated US$760 billion a year.[22]
+
+Signs and symptoms
+
+Overview of the most significant symptoms of diabetes
+
+Retinopathy, nephropathy, and neuropathy are potential complications of diabetes
+Common symptoms of diabetes include increased thirst, frequent urination, extreme hunger, and unintended weight loss.[23][24] Several other non-specific signs and symptoms may also occur, including fatigue, blurred vision, sweet smelling urine/semen and genital itchiness due to Candida infection.[24] About half of affected individuals may also be asymptomatic.[24] Type 1 presents abruptly following a pre-clinical phase, while type 2 has a more insidious onset; patients may remain asymptomatic for many years.[25]
+
+Diabetic ketoacidosis is a medical emergency that occurs most commonly in type 1, but may also occur in type 2 if it has been longstanding or if the individual has significant β-cell dysfunction.[26] Excessive production of ketone bodies leads to signs and symptoms including nausea, vomiting, abdominal pain, the smell of acetone in the breath, deep breathing known as Kussmaul breathing, and in severe cases decreased level of consciousness.[26] Hyperosmolar hyperglycemic state is another emergency characterized by dehydration secondary to severe hyperglycemia, with resultant hypernatremia leading to an altered mental state and possibly coma.[27]
+
+Hypoglycemia is a recognized complication of insulin treatment used in diabetes.[28] An acute presentation can include mild symptoms such as sweating, trembling, and palpitations, to more serious effects including impaired cognition, confusion, seizures, coma, and rarely death.[28] Recurrent hypoglycemic episodes may lower the glycemic threshold at which symptoms occur, meaning mild symptoms may not appear before cognitive deterioration begins to occur.[28]
+
+Long-term complications
+Main article: Complications of diabetes
+The major long-term complications of diabetes relate to damage to blood vessels at both macrovascular and microvascular levels.[29][30] Diabetes doubles the risk of cardiovascular disease, and about 75% of deaths in people with diabetes are due to coronary artery disease.[31] Other macrovascular morbidities include stroke and peripheral artery disease.[32]
+
+Microvascular disease affects the eyes, kidneys, and nerves.[29] Damage to the retina, known as diabetic retinopathy, is the most common cause of blindness in people of working age.[24] The eyes can also be affected in other ways, including development of cataract and glaucoma.[24] It is recommended that people with diabetes visit an optometrist or ophthalmologist once a year.[33]
+
+Diabetic nephropathy is a major cause of chronic kidney disease, accounting for over 50% of patients on dialysis in the United States.[34] Diabetic neuropathy, damage to nerves, manifests in various ways, including sensory loss, neuropathic pain, and autonomic dysfunction (such as postural hypotension, diarrhoea, and erectile dysfunction).[24] Loss of pain sensation predisposes to trauma that can lead to diabetic foot problems (such as ulceration), the most common cause of non-traumatic lower-limb amputation.[24]
+
+Hearing loss is another long-term complication associated with diabetes.[35]
+
+Based on extensive data and numerous cases of gallstone disease, it appears that a causal link might exist between type 2 diabetes and gallstones. People with diabetes are at a higher risk of developing gallstones compared to those without diabetes.[36]
+
+There is a link between cognitive deficit and diabetes; studies have shown that diabetic individuals are at a greater risk of cognitive decline, and have a greater rate of decline compared to those without the disease.[37] Diabetes increases the risk of dementia, and the earlier that one is diagnosed with diabetes, the higher the risk becomes.[38] The condition also predisposes to falls in the elderly, especially those treated with insulin.[39]
+
+Types
+Comparison of type 1 and 2 diabetes[40]
+Feature	Type 1 diabetes	Type 2 diabetes
+Onset	Sudden	Gradual, Insidious
+Age at onset	Any age; average age at diagnosis being 24.[41]	Mostly in adults
+Body size	Thin or normal[42]	Often obese
+Ketoacidosis	Common	Rare
+Autoantibodies	Usually present	Absent
+Endogenous insulin	Low or absent	Normal, decreased
+or increased
+Heritability	0.69 to 0.88[43][44][45]	0.47 to 0.77[46]
+Prevalence
+(age standardized)
+
+<2 per 1,000[47]	~6% (men), ~5% (women)[48]
+Diabetes is classified by the World Health Organization into six categories: type 1 diabetes, type 2 diabetes, hybrid forms of diabetes (including slowly evolving, immune-mediated diabetes of adults and ketosis-prone type 2 diabetes), hyperglycemia first detected during pregnancy, "other specific types", and "unclassified diabetes".[49] Diabetes is a more variable disease than once thought, and individuals may have a combination of forms.[50]
+
+Type 1
+Main article: Type 1 diabetes
+Type 1 accounts for 5 to 10% of diabetes cases and is the most common type of diabetes diagnosed in patients under 20 years;[51] however, the older term "juvenile-onset diabetes" is no longer used as onset in adulthood is possible.[34] The disease is characterized by loss of the insulin-producing beta cells of the pancreatic islets, leading to severe insulin deficiency, and can be further classified as immune-mediated or idiopathic (without known cause).[51] The majority of cases are immune-mediated, in which a T cell-mediated autoimmune attack causes loss of beta cells and thus insulin deficiency.[52] Patients often have irregular and unpredictable blood sugar levels due to very low insulin and an impaired counter-response to hypoglycemia.[53]
+
+
+Autoimmune attack in type 1 diabetes.
+Type 1 diabetes is partly inherited, with multiple genes, including certain HLA genotypes, known to influence the risk of diabetes. In genetically susceptible people, the onset of diabetes can be triggered by one or more environmental factors,[54] such as a viral infection or diet. Several viruses have been implicated, but to date there is no stringent evidence to support this hypothesis in humans.[54][55]
+
+Type 1 diabetes can occur at any age, and a significant proportion is diagnosed during adulthood. Latent autoimmune diabetes of adults (LADA) is the diagnostic term applied when type 1 diabetes develops in adults; it has a slower onset than the same condition in children. Given this difference, some use the unofficial term "type 1.5 diabetes" for this condition.[56] Adults with LADA are frequently initially misdiagnosed as having type 2 diabetes, based on age rather than a cause.[57] LADA leaves adults with higher levels of insulin production than type 1 diabetes, but not enough insulin production for healthy blood sugar levels.[58][59]
+
+Type 2
+Main article: Type 2 diabetes
+
+Reduced insulin secretion or weaker effect of insulin on its receptor leads to high glucose content in the blood.
+Type 2 diabetes is characterized by insulin resistance, which may be combined with relatively reduced insulin secretion.[12] The defective responsiveness of body tissues to insulin is believed to involve the insulin receptor.[60] However, the specific defects are not known. Diabetes mellitus cases due to a known defect are classified separately. Type 2 diabetes is the most common type of diabetes mellitus accounting for 95% of diabetes.[2] Many people with type 2 diabetes have evidence of prediabetes (impaired fasting glucose and/or impaired glucose tolerance) before meeting the criteria for type 2 diabetes.[61] The progression of prediabetes to overt type 2 diabetes can be slowed or reversed by lifestyle changes or medications that improve insulin sensitivity or reduce the liver's glucose production.[62]
+
+Type 2 diabetes is primarily due to lifestyle factors and genetics.[63] A number of lifestyle factors are known to be important to the development of type 2 diabetes, including obesity (defined by a body mass index of greater than 30), lack of physical activity, poor diet such as Western Pattern Diet, stress, and urbanization.[40][64] Excess body fat is associated with 30% of cases in people of Chinese and Japanese descent, 60–80% of cases in those of European and African descent, and 100% of Pima Indians and Pacific Islanders.[12] Even those who are not obese may have a high waist–hip ratio.[12]
+
+Dietary factors such as sugar-sweetened drinks are associated with an increased risk.[65][66][67] The type of fats in the diet is also important, with saturated fat and trans fats increasing the risk and polyunsaturated and monounsaturated fat decreasing the risk.[63] Eating white rice excessively may increase the risk of diabetes, especially in Chinese and Japanese people.[68]
+
+Adverse childhood experiences, including abuse, neglect, and household difficulties, increase the likelihood of type 2 diabetes later in life by 32%, with neglect having the strongest effect.[69]
+
+Antipsychotic medication, SSRI, and SNRI side effects (specifically metabolic abnormalities, dyslipidemia and weight gain) are also potential risk factors.[70]
+
+Gestational diabetes
+Main article: Gestational diabetes
+Gestational diabetes resembles type 2 diabetes in several respects, involving a combination of relatively inadequate insulin secretion and responsiveness. It occurs in about 2–10% of all pregnancies and may improve or disappear after delivery.[71] It is recommended that all pregnant women get tested starting around 24–28 weeks gestation.[72] It is most often diagnosed in the second or third trimester because of the increase in insulin-antagonist hormone levels that occurs at this time.[72] However, after pregnancy approximately 5–10% of women with gestational diabetes are found to have another form of diabetes, most commonly type 2.[71] Gestational diabetes is fully treatable, but requires careful medical supervision throughout the pregnancy. Management may include dietary changes, blood glucose monitoring, and in some cases, insulin may be required.[73]
+
+Though it may be transient, untreated gestational diabetes can damage the health of the fetus or mother. Risks to the baby include macrosomia (high birth weight), congenital heart and central nervous system abnormalities, and skeletal muscle malformations. Increased levels of insulin in a fetus's blood may inhibit fetal surfactant production and cause infant respiratory distress syndrome. A high blood bilirubin level may result from red blood cell destruction. In severe cases, perinatal death may occur, most commonly as a result of poor placental perfusion due to vascular impairment. Labor induction may be indicated with decreased placental function. A caesarean section may be performed if there is marked fetal distress[74] or an increased risk of injury associated with macrosomia, such as shoulder dystocia.[75]
+
+As the risk of developing type 2 diabetes is about 10 times higher in women with a history of gestational diabetes, postpartum screening may involve dietary, lifestyle, and drug interventions to prevent or delay its progression.[76]
+
+Type 5
+Main article: Maturity-onset diabetes of the young
+Maturity-onset diabetes of the young (MODY), or type 5 diabetes,[77] is a rare autosomal dominant inherited form of diabetes, due to one of several single-gene mutations causing defects in insulin production.[78] It is significantly less common than the three main types, constituting 1–2% of all cases. The name of this disease refers to early hypotheses as to its nature. Being due to a defective gene, this disease varies in age at presentation and in severity according to the specific gene defect; thus, there are at least 14 subtypes of MODY.[79] People with MODY often can control it without using insulin.[80]
+
+Other types
+Some cases of diabetes are caused by the body's tissue receptors not responding to insulin (even when insulin levels are normal, which is what separates it from type 2 diabetes); this form is very uncommon. Genetic mutations (autosomal or mitochondrial) can lead to defects in beta cell function. Abnormal insulin action may also have been genetically determined in some cases. Any disease that causes extensive damage to the pancreas may lead to diabetes (for example, chronic pancreatitis and cystic fibrosis). Diseases associated with excessive secretion of insulin-antagonistic hormones can cause diabetes (which is typically resolved once the hormone excess is removed). Many drugs impair insulin secretion and some toxins damage pancreatic beta cells, whereas others increase insulin resistance (especially glucocorticoids which can provoke "steroid diabetes"). The ICD-10 (1992) diagnostic entity, malnutrition-related diabetes mellitus (ICD-10 code E12), was deprecated by the World Health Organization (WHO) when the current taxonomy was introduced in 1999.[81] Yet another form of diabetes that people may develop is double diabetes. This is when a type 1 diabetic becomes insulin resistant, the hallmark for type 2 diabetes or has a family history for type 2 diabetes.[82] It was first discovered in 1990 or 1991.
+
+The following is a list of disorders that may increase the risk of diabetes:[83]
+
+Genetic defects of β-cell function
+Maturity onset diabetes of the young
+Mitochondrial DNA mutations
+Genetic defects in insulin processing or insulin action
+Defects in proinsulin conversion
+Insulin gene mutations
+Insulin receptor mutations
+Exocrine pancreatic defects (see Type 3c diabetes, i.e. pancreatogenic diabetes)
+Chronic pancreatitis
+Pancreatectomy
+Pancreatic neoplasia
+Cystic fibrosis
+Hemochromatosis
+Fibrocalculous pancreatopathy
+Endocrinopathies
+Growth hormone excess (acromegaly)
+Cushing syndrome
+Hyperthyroidism
+Hypothyroidism
+Pheochromocytoma
+Glucagonoma
+Infections
+Cytomegalovirus infection
+Coxsackievirus B
+Drugs
+Glucocorticoids
+Thyroid hormone
+β-adrenergic agonists
+Statins[84]
+Pathophysiology
+
+The fluctuation of blood sugar (red) and the sugar-lowering hormone insulin (blue) in humans during the course of a day with three meals. One of the effects of a sugar-rich vs a starch-rich meal is highlighted.
+
+Mechanism of insulin release in normal pancreatic beta cells. Insulin production is more or less constant within the beta cells. Its release is triggered by food, chiefly food containing absorbable glucose.
+Insulin is the principal hormone that regulates the uptake of glucose from the blood into most cells of the body, especially liver, adipose tissue and muscle, except smooth muscle, in which insulin acts via the IGF-1.[85] Therefore, deficiency of insulin or the insensitivity of its receptors play a central role in all forms of diabetes mellitus.[86]
+
+The body obtains glucose from three main sources: the intestinal absorption of food; the breakdown of glycogen (glycogenolysis), the storage form of glucose found in the liver; and gluconeogenesis, the generation of glucose from non-carbohydrate substrates in the body.[87] Insulin plays a critical role in regulating glucose levels in the body. Insulin can inhibit the breakdown of glycogen or the process of gluconeogenesis, it can stimulate the transport of glucose into fat and muscle cells, and it can stimulate the storage of glucose in the form of glycogen.[87]
+
+Insulin is released into the blood by beta cells (β-cells), found in the islets of Langerhans in the pancreas, in response to rising levels of blood glucose, typically after eating. Insulin is used by about two-thirds of the body's cells to absorb glucose from the blood for use as fuel, for conversion to other needed molecules, or for storage. Lower glucose levels result in decreased insulin release from the beta cells and in the breakdown of glycogen to glucose. This process is mainly controlled by the hormone glucagon, which acts in the opposite manner to insulin.[88]
+
+If the amount of insulin available is insufficient, or if cells respond poorly to the effects of insulin (insulin resistance), or if the insulin itself is defective, then glucose is not absorbed properly by the body cells that require it, and is not stored appropriately in the liver and muscles. The net effect is persistently high levels of blood glucose, poor protein synthesis, and other metabolic derangements, such as metabolic acidosis in cases of complete insulin deficiency.[87]
+
+When there is too much glucose in the blood for a long time, the kidneys cannot absorb it all (reach a threshold of reabsorption) and the extra glucose gets passed out of the body through urine (glycosuria).[89] This increases the osmotic pressure of the urine and inhibits reabsorption of water by the kidney, resulting in increased urine production (polyuria) and increased fluid loss. Lost blood volume is replaced osmotically from water in body cells and other body compartments, causing dehydration and increased thirst (polydipsia).[87] In addition, intracellular glucose deficiency stimulates appetite leading to excessive food intake (polyphagia).[90]
+
+Diagnosis
+See also: Glycated hemoglobin and Glucose tolerance test
+Diabetes mellitus is diagnosed with a test for the glucose content in the blood, and is diagnosed by demonstrating any one of the following:[81]
+
+Fasting plasma glucose level ≥ 7.0 mmol/L (126 mg/dL). For this test, blood is taken after a period of fasting, i.e. in the morning before breakfast, after the patient had sufficient time to fast overnight or at least 8 hours before the test.
+Plasma glucose ≥ 11.1 mmol/L (200 mg/dL) two hours after a 75 gram oral glucose load as in a glucose tolerance test (OGTT)
+Symptoms of high blood sugar and plasma glucose ≥ 11.1 mmol/L (200 mg/dL) either while fasting or not fasting
+Glycated hemoglobin (HbA1C) ≥ 48 mmol/mol (≥ 6.5 DCCT %).[91]
+WHO diabetes diagnostic criteria[92][93]  edit
+Condition	2-hour glucose	Fasting glucose	HbA1c
+Unit	mmol/L	mg/dL	mmol/L	mg/dL	mmol/mol	DCCT %
+Normal	< 7.8	< 140	< 6.1	< 110	< 42	< 6.0
+Impaired fasting glycaemia	< 7.8	< 140	6.1–7.0	110–125	42–46	6.0–6.4
+Impaired glucose tolerance	≥ 7.8	≥ 140	< 7.0	< 126	42–46	6.0–6.4
+Diabetes mellitus	≥ 11.1	≥ 200	≥ 7.0	≥ 126	≥ 48	≥ 6.5
+A positive result, in the absence of unequivocal high blood sugar, should be confirmed by a repeat of any of the above methods on a different day. It is preferable to measure a fasting glucose level because of the ease of measurement and the considerable time commitment of formal glucose tolerance testing, which takes two hours to complete and offers no prognostic advantage over the fasting test.[94] According to the current definition, two fasting glucose measurements at or above 7.0 mmol/L (126 mg/dL) is considered diagnostic for diabetes mellitus.
+
+Per the WHO, people with fasting glucose levels from 6.1 to 6.9 mmol/L (110 to 125 mg/dL) are considered to have impaired fasting glucose.[95] People with plasma glucose at or above 7.8 mmol/L (140 mg/dL), but not over 11.1 mmol/L (200 mg/dL), two hours after a 75 gram oral glucose load are considered to have impaired glucose tolerance. Of these two prediabetic states, the latter in particular is a major risk factor for progression to full-blown diabetes mellitus, as well as cardiovascular disease.[96] The American Diabetes Association (ADA) since 2003 uses a slightly different range for impaired fasting glucose of 5.6 to 6.9 mmol/L (100 to 125 mg/dL).[97]
+
+Glycated hemoglobin is better than fasting glucose for determining risks of cardiovascular disease and death from any cause.[98]
+
+Prevention
+See also: Prevention of type 2 diabetes
+There is no known preventive measure for type 1 diabetes.[2] However, islet autoimmunity and multiple antibodies can be a strong predictor of the onset of type 1 diabetes.[99] Type 2 diabetes—which accounts for 85–90% of all cases worldwide—can often be prevented or delayed[100] by maintaining a normal body weight, engaging in physical activity, and eating a healthy diet.[2] Higher levels of physical activity (more than 90 minutes per day) reduce the risk of diabetes by 28%.[101] Dietary changes known to be effective in helping to prevent diabetes include maintaining a diet rich in whole grains and fiber, and choosing good fats, such as the polyunsaturated fats found in nuts, vegetable oils, and fish.[102] Limiting sugary beverages and eating less red meat and other sources of saturated fat can also help prevent diabetes.[102] Tobacco smoking is also associated with an increased risk of diabetes and its complications, so smoking cessation can be an important preventive measure as well.[103]
+
+The relationship between type 2 diabetes and the main modifiable risk factors (excess weight, unhealthy diet, physical inactivity and tobacco use) is similar in all regions of the world. There is growing evidence that the underlying determinants of diabetes are a reflection of the major forces driving social, economic and cultural change: globalization, urbanization, population aging, and the general health policy environment.[104]
+
+Comorbidity
+Diabetes patients' comorbidities have a significant impact on medical expenses and related costs. It has been demonstrated that patients with diabetes are more likely to experience respiratory, urinary tract, and skin infections, develop atherosclerosis, hypertension, and chronic kidney disease, putting them at increased risk of infection and complications that require medical attention.[105] Patients with diabetes mellitus are more likely to experience certain infections, such as COVID-19, with prevalence rates ranging from 5.3 to 35.5%.[106][107] Maintaining adequate glycemic control is the primary goal of diabetes management since it is critical to managing diabetes and preventing or postponing such complications.[108]
+
+People with type 1 diabetes have higher rates of autoimmune disorders than the general population. An analysis of a type 1 diabetes registry found that 27% of the 25,000 participants had other autoimmune disorders.[109] Between 2% and 16% of people with type 1 diabetes also have celiac disease.[109]
+
+Management
+Main article: Diabetes management
+Diabetes management concentrates on keeping blood sugar levels close to normal, without causing low blood sugar.[110] This can usually be accomplished with dietary changes,[111] exercise, weight loss, and use of appropriate medications (insulin, oral medications).[110]
+
+Learning about the disease and actively participating in the treatment is important, since complications are far less common and less severe in people who have well-managed blood sugar levels.[110][112] The goal of treatment is an A1C level below 7%.[113][114] Attention is also paid to other health problems that may accelerate the negative effects of diabetes. These include smoking, high blood pressure, metabolic syndrome obesity, and lack of regular exercise.[110][115] Specialized footwear is widely used to reduce the risk of diabetic foot ulcers by relieving the pressure on the foot.[116][117][118] Foot examination for patients living with diabetes should be done annually which includes sensation testing, foot biomechanics, vascular integrity and foot structure.[119]
+
+Concerning those with severe mental illness, the efficacy of type 2 diabetes self-management interventions is still poorly explored, with insufficient scientific evidence to show whether these interventions have similar results to those observed in the general population.[120]
+
+Lifestyle
+See also: Diet in diabetes
+People with diabetes can benefit from education about the disease and treatment, dietary changes, and exercise, with the goal of keeping both short-term and long-term blood glucose levels within acceptable bounds. In addition, given the associated higher risks of cardiovascular disease, lifestyle modifications are recommended to control blood pressure.[121][122]
+
+Weight loss can prevent progression from prediabetes to diabetes type 2, decrease the risk of cardiovascular disease, or result in a partial remission in people with diabetes.[123][124] No single dietary pattern is best for all people with diabetes.[125] Healthy dietary patterns, such as the Mediterranean diet, low-carbohydrate diet, or DASH diet, are often recommended, although evidence does not support one over the others.[123][124] According to the ADA, "reducing overall carbohydrate intake for individuals with diabetes has demonstrated the most evidence for improving glycemia", and for individuals with type 2 diabetes who cannot meet the glycemic targets or where reducing anti-glycemic medications is a priority, low or very-low carbohydrate diets are a viable approach.[124] For overweight people with type 2 diabetes, any diet that achieves weight loss is effective.[125][126]
+
+A 2020 Cochrane systematic review compared several non-nutritive sweeteners to sugar, placebo and a nutritive low-calorie sweetener (tagatose), but the results were unclear for effects on HbA1c, body weight and adverse events.[127] The studies included were mainly of very low-certainty and did not report on health-related quality of life, diabetes complications, all-cause mortality or socioeconomic effects.[127]
+
+In children
+While type 1 diabetes is more prevalent in pediatric diabetes, type 2 diabetes has increasing prevalence, accounting for some 33% of new diagnoses.[128][129] Risk factors for type 2 diabetes include ethnicity, family history, sedentary lifestyle, unhealthy diet, a mother with gestational diabetes, female gender, and obesity.[128] Children with type 2 diabetes have increased risk of developing complications, which include insulin resistance, hyperglycemia, polyuria, ketosis, and dehydration.[128] Early recognition, screening, treatment, and education of diabetic children are needed to prevent long-term disease complications.[128][130]
+
+Screening for type 2 diabetes typically starts at 10 years old for obese children and those who have at least two risk factors.[128] Diagnostic criteria include plasma blood glucose of more than 200 mg per deciliter (dl) or a fasting blood glucose above 126 mg per dl in children with overt symptoms. Differentiating type 1 from type 2 diabetes may include assessment of fasting blood insulin or C-peptide, or determination of autoantibodies for type 1 diabetes.[128]
+
+Treatment and management
+Adoption of healthy lifestyle practices and metformin medication are recommended as initial treatments.[128][129] Lifestyle changes include daily exercise for at least 60 minutes, reduced screen time, and dietary education.[128][130]
+
+Metformin at 500 mg per day is used upon diagnosis.[128] Insulin is used for children with a blood glucose of more than 250 mg per dl and a hemoglobin A1c greater than 8.5%.[128]
+
+Education
+Diabetes management for children requires the integration of the family and health care team to be committed and continuous for promotion of self-management.[130] A health care team may include a pediatric endocrinologist or physician trained in pediatric diabetes, a diabetes specialist nurse, a registered dietitian, a psychologist, a social worker, and child life specialist.[130]
+
+The goal of the health care team and child's family is to empower the child to make informed decisions for health‐promoting lifestyle choices.[130]
+
+Medications
+Main article: Diabetes medication
+Glucose control
+See also: Anti-diabetic medication
+Most medications used to treat diabetes act by lowering blood sugar levels through different mechanisms. There is broad consensus that when people with diabetes maintain tight glucose control – keeping the glucose levels in their blood within normal ranges – they experience fewer complications, such as kidney problems or eye problems.[131][132] There is, however, debate as to whether this is appropriate and cost effective for people later in life in whom the risk of hypoglycemia may be more significant.[133]
+
+There are a number of different classes of anti-diabetic medications. Type 1 diabetes requires treatment with insulin, ideally using a "basal bolus" regimen that most closely matches normal insulin release: long-acting insulin for the basal rate and short-acting insulin with meals.[134] Type 2 diabetes is generally treated with medication that is taken by mouth (e.g. metformin) although some eventually require injectable treatment with insulin or GLP-1 agonists.[135]
+
+Metformin is generally recommended as a first-line treatment for type 2 diabetes, as there is good evidence that it decreases mortality.[7] It works by decreasing the liver's production of glucose, and increasing the amount of glucose stored in peripheral tissue.[136] Several other groups of drugs, mainly oral medication, may also decrease blood sugar in type 2 diabetes. These include agents that increase insulin release (sulfonylureas), agents that decrease absorption of sugar from the intestines (acarbose), agents that inhibit the enzyme dipeptidyl peptidase-4 (DPP-4) that inactivates incretins such as GLP-1 and GIP (sitagliptin), agents that make the body more sensitive to insulin (thiazolidinedione) and agents that increase the excretion of glucose in the urine (SGLT2 inhibitors).[136] When insulin is used in type 2 diabetes, a long-acting formulation is usually added initially, while continuing oral medications.[7]
+
+Some severe cases of type 2 diabetes may also be treated with insulin, which is increased gradually until glucose targets are reached.[7][137]
+
+Blood pressure lowering
+Cardiovascular disease is a serious complication associated with diabetes, and many international guidelines recommend blood pressure treatment targets that are lower than 140/90 mmHg for people with diabetes.[138] However, there is only limited evidence regarding what the lower targets should be. A 2016 systematic review found potential harm to treating to targets lower than 140 mmHg,[139] and a subsequent systematic review in 2019 found no evidence of additional benefit from blood pressure lowering to between 130 – 140mmHg, although there was an increased risk of adverse events.[140]
+
+2015 American Diabetes Association recommendations are that people with diabetes and albuminuria should receive an inhibitor of the renin-angiotensin system to reduce the risks of progression to end-stage renal disease, cardiovascular events, and death.[141] There is some evidence that angiotensin converting enzyme inhibitors (ACEIs) are superior to other inhibitors of the renin-angiotensin system such as angiotensin receptor blockers (ARBs),[142] or aliskiren in preventing cardiovascular disease.[143] Although a more recent review found similar effects of ACEIs and ARBs on major cardiovascular and renal outcomes.[144] There is no evidence that combining ACEIs and ARBs provides additional benefits.[144]
+
+Aspirin
+The use of aspirin to prevent cardiovascular disease in diabetes is controversial.[141] Aspirin is recommended by some in people at high risk of cardiovascular disease; however, routine use of aspirin has not been found to improve outcomes in uncomplicated diabetes.[145] 2015 American Diabetes Association recommendations for aspirin use (based on expert consensus or clinical experience) are that low-dose aspirin use is reasonable in adults with diabetes who are at intermediate risk of cardiovascular disease (10-year cardiovascular disease risk, 5–10%).[141] National guidelines for England and Wales by the National Institute for Health and Care Excellence (NICE) recommend against the use of aspirin in people with type 1 or type 2 diabetes who do not have confirmed cardiovascular disease.[134][135]
+
+Surgery
+Weight loss surgery in those with obesity and type 2 diabetes is often an effective measure.[146] Many are able to maintain normal blood sugar levels with little or no medications following surgery[147] and long-term mortality is decreased.[148] There is, however, a short-term mortality risk of less than 1% from the surgery.[149] The body mass index cutoffs for when surgery is appropriate are not yet clear.[148] It is recommended that this option be considered in those who are unable to get both their weight and blood sugar under control.[150]
+
+A pancreas transplant is occasionally considered for people with type 1 diabetes who have severe complications of their disease, including end stage kidney disease requiring kidney transplantation.[151]
+
+Diabetic peripheral neuropathy (DPN) affects 30% of all diabetes patients.[152] When DPN is superimposed with nerve compression, DPN may be treatable with multiple nerve decompressions.[153][154] The theory is that DPN predisposes peripheral nerves to compression at anatomical sites of narrowing, and that the majority of DPN symptoms are actually attributable to nerve compression, a treatable condition, rather than DPN itself.[155][156] The surgery is associated with lower pain scores, higher two-point discrimination (a measure of sensory improvement), lower rate of ulcerations, fewer falls (in the case of lower extremity decompression), and fewer amputations.[156][157][158][154]
+
+Self-management and support
+In countries using a general practitioner system, such as the United Kingdom, care may take place mainly outside hospitals, with hospital-based specialist care used only in case of complications, difficult blood sugar control, or research projects. In other circumstances, general practitioners and specialists share care in a team approach. Evidence has shown that social prescribing led to slight improvements in blood sugar control for people with type 2 diabetes.[159] Home telehealth support can be an effective management technique.[160]
+
+The use of technology to deliver educational programs for adults with type 2 diabetes includes computer-based self-management interventions to collect for tailored responses to facilitate self-management.[161] There is no adequate evidence to support effects on cholesterol, blood pressure, behavioral change (such as physical activity levels and dietary), depression, weight and health-related quality of life, nor in other biological, cognitive or emotional outcomes.[161][162]
+
+Epidemiology
+Main article: Epidemiology of diabetes
+
+Rates of diabetes worldwide in 2014. The worldwide prevalence was 9.2%.
+
+Mortality rate of diabetes worldwide in 2012 per million inhabitants
+  28–91
+  92–114
+  115–141
+  142–163
+  164–184
+  185–209
+  210–247
+  248–309
+  310–404
+  405–1879
+An estimated 382 million people worldwide had diabetes in 2013[163] up from 108 million in 1980.[164] Accounting for the shifting age structure of the global population, the prevalence of diabetes is 8.8% among adults, nearly double the rate of 4.7% in 1980.[165][164] Type 2 makes up about 90% of the cases.[20][40] Some data indicate rates are roughly equal in women and men,[20] but male excess in diabetes has been found in many populations with higher type 2 incidence, possibly due to sex-related differences in insulin sensitivity, consequences of obesity and regional body fat deposition, and other contributing factors such as high blood pressure, tobacco smoking, and alcohol intake.[166][167]
+
+The WHO estimates that diabetes resulted in 1.5 million deaths in 2012, making it the 8th leading cause of death.[168][164] However, another 2.2 million deaths worldwide were attributable to high blood glucose and the increased risks of cardiovascular disease and other associated complications (e.g. kidney failure), which often lead to premature death and are often listed as the underlying cause on death certificates rather than diabetes.[164][169] For example, in 2017, the International Diabetes Federation (IDF) estimated that diabetes resulted in 4.0 million deaths worldwide,[165] using modeling to estimate the total number of deaths that could be directly or indirectly attributed to diabetes.[165]
+
+Diabetes occurs throughout the world but is more common (especially type 2) in more developed countries. The greatest increase in rates has, however, been seen in low- and middle-income countries,[164] where more than 80% of diabetic deaths occur.[170] The fastest prevalence increase is expected to occur in Asia and Africa, where most people with diabetes will probably live in 2030.[171] The increase in rates in developing countries follows the trend of urbanization and lifestyle changes, including increasingly sedentary lifestyles, less physically demanding work and the global nutrition transition, marked by increased intake of foods that are high energy-dense but nutrient-poor (often high in sugar and saturated fats, sometimes referred to as the "Western-style" diet).[164][171] The global number of diabetes cases might increase by 48% between 2017 and 2045.[165]
+
+As of 2020, 38% of all US adults had prediabetes.[172] Prediabetes is an early stage of diabetes.
+
+History
+Main article: History of diabetes
+Diabetes was one of the first diseases described,[173] with an Egyptian manuscript from c. 1500 BCE mentioning "too great emptying of the urine."[174] The Ebers papyrus includes a recommendation for a drink to take in such cases.[175] The first described cases are believed to have been type 1 diabetes.[174] Indian physicians around the same time identified the disease and classified it as madhumeha or "honey urine", noting the urine would attract ants.[174][175]
+
+The term "diabetes" or "to pass through" was first used in 230 BCE by the Greek Apollonius of Memphis.[174] The disease was considered rare during the time of the Roman empire, with Galen commenting he had only seen two cases during his career.[174] This is possibly due to the diet and lifestyle of the ancients, or because the clinical symptoms were observed during the advanced stage of the disease. Galen named the disease "diarrhea of the urine" (diarrhea urinosa).[176]
+
+The earliest surviving work with a detailed reference to diabetes is that of Aretaeus of Cappadocia (2nd or early 3rd century CE). He described the symptoms and the course of the disease, which he attributed to the moisture and coldness, reflecting the beliefs of the "Pneumatic School". He hypothesized a correlation between diabetes and other diseases, and he discussed differential diagnosis from the snakebite, which also provokes excessive thirst. His work remained unknown in the West until 1552, when the first Latin edition was published in Venice.[176]
+
+Two types of diabetes were identified as separate conditions for the first time by the Indian physicians Sushruta and Charaka in 400–500 CE with one type being associated with youth and another type with being overweight.[174] Effective treatment was not developed until the early part of the 20th century when Canadians Frederick Banting and Charles Best isolated and purified insulin in 1921 and 1922.[174] This was followed by the development of the long-acting insulin NPH in the 1940s.[174]
+
+Etymology
+The word diabetes (/ˌdaɪ.əˈbiːtiːz/ or /ˌdaɪ.əˈbiːtɪs/) comes from Latin diabētēs, which in turn comes from Ancient Greek διαβήτης (diabētēs), which literally means "a passer through; a siphon".[177] Ancient Greek physician Aretaeus of Cappadocia (fl. 2nd century CE) used that word, with the intended meaning "excessive discharge of urine", as the name for the disease.[178][179] Ultimately, the word comes from Greek διαβαίνειν (diabainein), meaning "to pass through",[177] which is composed of δια- (dia-), meaning "through" and βαίνειν (bainein), meaning "to go".[178] The word "diabetes" is first recorded in English, in the form diabete, in a medical text written around 1425.
+
+The word mellitus (/məˈlaɪtəs/ or /ˈmɛlɪtəs/) comes from the classical Latin word mellītus, meaning "mellite"[180] (i.e. sweetened with honey;[180] honey-sweet[181]). The Latin word comes from mell-, which comes from mel, meaning "honey";[180][181] sweetness;[181] pleasant thing,[181] and the suffix -ītus,[180] whose meaning is the same as that of the English suffix "-ite".[182] It was Thomas Willis who in 1675 added "mellitus" to the word "diabetes" as a designation for the disease, when he noticed the urine of a person with diabetes had a sweet taste (glycosuria). This sweet taste had been noticed in urine by the ancient Greeks, Chinese, Egyptians, and Indians.[183]
