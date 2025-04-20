@@ -1,5 +1,5 @@
 from autogen import ConversableAgent, GroupChat, GroupChatManager, UserProxyAgent, AssistantAgent
-
+from .openaiwrapper import MyBaseAgent
 class WorkFlow():
     def __init__(self,prompt,llm_config,max_turns):
         self.planner_prompt = prompt[0]
@@ -71,32 +71,33 @@ class GroupedWorkFlow():
         self.llm_config = llm_config
         self.max_turns = max_turns
         self.history = []
-
     def get_output(self,boot):
-        executor = AssistantAgent(
+        executor = MyBaseAgent(
             "Executor",
             system_message=self.executor_prompt,
             llm_config=self.llm_config,
             human_input_mode="NEVER",
         )
 
-        user = UserProxyAgent(
+        user = MyBaseAgent(
             "user",
         )
-        self.history = self.history[::-1]
         for h in self.history:
-            if h["name"] == "Executor":
+            if h["role"] == "user":
                 executor.receive(h,sender=executor)
             else :
                 executor.receive(h,sender=user)
-        groupchat = GroupChat([executor],messages=self.history, max_round=1)
-        manager = GroupChatManager(groupchat,"chat_manager",system_message="You are a chat manager.", human_input_mode="NEVER")
-        result = manager.initiate_chat(executor,message=boot, max_turns= self.max_turns)
-        self.history.extend(result.chat_history)
-        return result.chat_history[-1]["content"]
-    
-    def set_history(self,data):
-        self.history.extend(data)
+        self.history.append({"role":"user","content":boot})
+        executor.receive(self.history[-1],sender=user)
+        result = executor.generate_reply(messages=self.history,sender=user)
+        self.history.append({"role":"assistant","content":result})
+        user.receive(self.history[-1],sender=executor)
+        print(self.history)
+        return result
 
     def get_history(self):
         return self.history
+    
+
+    def set_history(self, history):
+        self.history.extend(history)

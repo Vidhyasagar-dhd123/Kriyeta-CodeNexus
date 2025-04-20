@@ -7,7 +7,6 @@ from db.config.database import user_collection, chat_collection
 from bson.objectid import ObjectId
 from ml.rag import rag,context_retrieval
 import bson
-from ml.model_loader import load_model
 from db.models.User import User
 from agents.agents import get_data, generate_json
 from agents.talker import check_data, get_tool
@@ -42,28 +41,45 @@ def handle_message(data):
         print(data["data"])
         if data and data["data"]:
             tool = get_tool("What tool this sentence calling : "+str(data["data"]))
-            # print(tool)
-            # if 'HYPERTENSION' in tool:
-            #     emit("check",[])
-            # elif 'DIABETES' in tool:
-            #     emit("check",['Age','Sex','HighChol','CholCheck','BMI','Smoker','HeartDisease','PhysicalActivity','Fruits','Veggies','HvyAlchohol','GenHlth','MentHlth','PhysHlth','DiffWalk','Stroke','HighBP'])
-            # else:
-
-            print("___________-------------------")
-            history = []
-            hist = chat_collection.find({"user_mail":current_user.email}).sort("_id", DESCENDING).limit(20)
-            for h in hist:
-                h = bson.decode(h["summary"])
-                history.extend(h["chat"])
-            query = data["data"]
-            reply, history = check_data(query,history)  
-            chat_collection.insert_one({"user_mail":current_user.email,"query":query,"response":reply,"summary":bson.encode({"chat":history[-2:]})})
+            print(tool)
+            if 'HYPERTENSION' in tool:
+                emit("check",['STRESS','AGE','CHOLESTROLE','HIGHBP','MENTALHEALTH'])
+            elif 'DIABETES' in tool:
+                emit("check",['Age','Sex','HighChol','CholCheck','BMI','Smoker','HeartDisease','PhysicalActivity','Fruits','Veggies','HvyAlchohol','GenHlth','MentHlth','PhysHlth','DiffWalk','Stroke','HighBP'])
+            else:
+                history = []
+                hist = chat_collection.find({"user_mail":current_user.email}).sort("_id", DESCENDING).limit(20)
+                for h in hist:
+                    h = bson.decode(h["summary"])
+                    history.extend(h["chat"])
+                query = data["data"]
+                reply, history = check_data(query,history)  
+                chat_collection.insert_one({"user_mail":current_user.email,"query":query,"response":reply,"summary":bson.encode({"chat":history[-2:]})})
         else:
             reply = "Please Provide some input!"
    
         emit("message",{"data":reply})
     else:
         disconnect()
+
+
+tools = ['diseaseCheck','getSuggestion']
+
+
+@socketio.on("typing")
+def handleTyping(data:str):
+    if data.startswith('@'):
+        for tool in tools:
+            if data.replace('@','').lower() in tool.lower():
+                emit("suggestion",'@'+str(tool))
+                break
+            else:
+                emit("suggestion","")
+    else:
+        emit("suggestion","")
+            
+
+
 
 @app.route("/",methods=['POST','GET'])
 def home_route():
@@ -143,5 +159,8 @@ def handle_check(data):
     print(pred)
     emit("message",{"data":pred})
 
+@app.route("/rag")
+def rag_ret():
+    return rag("What is diabetes")
 if __name__ == "__main__":
     socketio.run(app,debug=True)

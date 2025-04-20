@@ -1,13 +1,13 @@
 from autogen import ConversableAgent
 import os
-from autogen import ConversableAgent
+from model_loader import get_pred_diabetes
 config = [{
     "model":os.getenv("MODEL"),
     "base_url":os.getenv("BASE_URL"),
     "api_key":os.getenv("API_KEY")
 }]
 # Let's first define the assistant agent that suggests tool calls.
-assistant = ConversableAgent(
+assistant = MyBaseAgent(
     name="Assistant",
     system_message="You are a helpful AI assistant. "
     "You can help with simple calculations. "

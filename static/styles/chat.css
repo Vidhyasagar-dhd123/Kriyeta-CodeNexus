@@ -120,9 +120,19 @@
     
     .chat-wrapper{
       width: 100%;
+      height: 90%;
     }
+    
   }
 
   input{
     max-height: 30px;
+  }
+
+  #sugg{
+    position: fixed;
+    bottom:0;
+    margin-bottom: 70px;
+    margin-left: 14px;
+    text-align: center;
   }

@@ -21,7 +21,7 @@ def check_data(boot,history):
 def get_tool(query):
     assistant = AssistantAgent(
                 "assistant",
-                system_message="You are a vocabulary and json expert, choose the term from ['HYPERTENSION','DIABETES','ANOTHER'] which relates the best to the user query in form of json in less than 4 words.",
+                system_message="You are a vocabulary and json expert, choose the term from ['HYPERTENSION','DIABETES','ANOTHER'] which relates the best to the user query in form of json in less than 4 words. If the user asks questions about these then still reply another.",
                 llm_config={"config_list":config},
                 human_input_mode="NEVER",
             )

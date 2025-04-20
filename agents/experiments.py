@@ -1,18 +1,44 @@
-from workflow import GroupedWorkFlow
 import os
-config = [{
-    "model":os.getenv("MODEL"),
-    "base_url":os.getenv("BASE_URL"),
-    "api_key":os.getenv("API_KEY")
+import autogen
+
+# Load config from environment
+config_list = [{
+    "model": os.getenv("MODEL"),
+    "api_key": os.getenv("API_KEY"),
+    "base_url": os.getenv("BASE_URL"),
 }]
 
-prompt = [
-       "You are a message checker if message related to medical or greeting then output -> Yes otherwise No along with the question"\
-       "If user asks 'tell me about politics -> then reply = No [tell me about politics]'"\
-       "If user asks Is stress a symptom to hypertension -> then reply = Yes[Is stress a symptom to hypertension] also add the additional information provided.",
-       "If response contains yes then the user is asking valid question so answer using the data the user if response is no then make user ask another question and do not answer. tell user you are a medical assistant."
-       "Example : If user asks 'tell me about cricket' then reply = I can not assist you with that.",
-    ]
-gwf = GroupedWorkFlow(prompt,{"config_list":config},max_turns=1)
-gwf.set_history({"role":"user","content":"My name is vidhyasagar"})
-print(gwf.get_output("What is my name"))
+# Create assistant agent
+assistant = autogen.AssistantAgent(
+    name="assistant",
+    llm_config={"config_list": config_list}
+)
+
+# Create user proxy agent
+user_proxy = autogen.UserProxyAgent(
+    name="user",
+    human_input_mode="NEVER",
+    code_execution_config=False
+)
+
+# Store chat history as list of message dicts
+history = []
+
+print("💬 Start chatting with the assistant (type 'exit' to quit):")
+
+while True:
+    user_input = input("You: ")
+    if user_input.strip().lower() in ("exit", "quit"):
+        print("👋 Chat ended.")
+        break
+
+    # Add user input to history
+    history.append({"role": "user", "content": user_input})
+
+    # Generate assistant's reply with full context
+    reply = assistant.generate_reply(history, sender=user_proxy)
+
+    # Add assistant's reply to history
+    history.append({"role": "assistant", "content": reply})
+
+    print("Assistant:", reply)

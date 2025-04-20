@@ -17,7 +17,7 @@ def rag(query):
     embeddings = OllamaEmbeddings(model="mistral")  
     vectorstore = FAISS.from_documents(docs, embeddings)
     retriever = vectorstore.as_retriever()
-    llm = ChatOllama(model="mistral")
+    llm = ChatOllama(model="mistral",base_url=os.getenv("BASE_URL"))
     qa_chain = RetrievalQA.from_chain_type(llm=llm, retriever=retriever)
     response = qa_chain.run(query)
     return response
@@ -26,7 +26,7 @@ def context_retrieval(data):
     documents = [Document(page_content=data)]
     text_splitter = CharacterTextSplitter(chunk_size=500, chunk_overlap=50)
     docs = text_splitter.split_documents(documents)
-    embeddings = OllamaEmbeddings(model="mistral")  
+    embeddings = OllamaEmbeddings(model="mistral",base_url=os.getenv("BASE_URL"))  
     vectorstore = FAISS.from_documents(docs, embeddings)
     retriever = vectorstore.as_retriever()
     llm = ChatOllama(model="mistral")
